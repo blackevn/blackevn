@@ -1,17 +1,26 @@
+'use client';
+
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+const Sidebar = () => {
 
 
-const Nav = () => {
 
   return <>
 
-            <div>
+            <div className="w-[40] lg:w-[400px] bg-gray-900">
 
-                <p>Nav</p>
+        
+                <div>
+                    <FontAwesomeIcon icon={ faHome}/>
+                    
+                </div>
+                
 
             </div>
   
-        </>
-
+         </>
 };
 
-export default Nav;
+export default Sidebar;

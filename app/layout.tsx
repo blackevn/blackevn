@@ -1,7 +1,7 @@
 import './globals.css'
-import Nav from "./nav"
+import Nav from "./header"
 import Footer from "./footer"
-import Sidebar from './sidebar'
+import Sidebar from './nav'
 
 export const metadata = {
 
@@ -28,7 +28,7 @@ export default function RootLayout({
 
         <Nav/>
 
-        <div className='flex gap-10 h-[92vh]'>
+        <div className='flex gap-10 h-[98vh] relative'>
 
           <Sidebar/>
 
