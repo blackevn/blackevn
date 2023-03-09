@@ -33,7 +33,7 @@ const Button = (props: any) => {
   return (
     <>
     
-    <button disabled={disabled} onClick={clickEvent}
+    <button type="button" disabled={disabled} onClick={clickEvent}
     
     className={`
 

@@ -1,7 +1,6 @@
 'use client';
 
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import NavLink from "./navlink";
 
 const Sidebar = () => {
 
@@ -9,12 +8,18 @@ const Sidebar = () => {
 
   return <>
 
-            <div className="w-[40] lg:w-[400px] bg-gray-900">
+            <div className="lg:w-[400px] bg-gray-900 p-4 ">
 
-        
-                <div>
-                    <FontAwesomeIcon icon={ faHome}/>
+                <div className="space-y-2">
                     
+                <NavLink name="Home"/>
+
+                <NavLink >
+
+                    <div className="badge">New</div>
+
+                </NavLink>
+
                 </div>
                 
 

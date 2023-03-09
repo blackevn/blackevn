@@ -1,5 +1,5 @@
 
-const Input = (props) => {
+const Input = (props: any) => {
 
     const {type, name, value, id, onChange, placeholder, bgColor, outline, textColor, textTrans, span, modifier, ref, disabled} = props
 
